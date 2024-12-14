@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+
+    <title>Consulta Ciudad-Clima</title>
+</head>
+
+<body>
+    <main class="container">
+        <form id="form">
+            <label>
+                Ciudad del usuario
+                <input required id="input" type="text" placeholder="Introduce aqui tu CIUDAD">
+
+                <small>
+                    Por ejemplo: Buenos Aires
+                </small>
+            </label>
+            <button id="submit">
+                Buscar informacion de esta CIUDAD
+            </button>
+        </form>
+
+        <div>
+            <pre id="results">
+
+            </pre>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
